@@ -712,5 +712,5 @@
 };
 /* CONSYS end */
 
-#include <bv2000s_bsp/cust.dtsi>
+#include <bv2000s/cust.dtsi>
 /*End of this file, DO NOT ADD ANYTHING HERE*/
