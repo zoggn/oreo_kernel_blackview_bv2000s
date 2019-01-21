@@ -47,7 +47,9 @@ LCM_DRIVER *lcm_driver_list[] = {
 #if defined(NT35595_FHD_DSI_CMD_TRULY_8163)
 	&nt35595_fhd_dsi_cmd_truly_8163_lcm_drv,
 #endif
-
+#if defined(NT35521_HD_CMI5P0_SAIHUA_S2609_JK)
+    &nt35521_hd_cmi5p0_saihua_s2609_jk_lcm_drv,
+#endif
 #if defined(NT35523_WXGA_DSI_VDO_8163)
 	&nt35523_wxga_dsi_vdo_8163_lcm_drv,
 #endif
