@@ -289,7 +289,7 @@ static void lcm_get_params(LCM_PARAMS *params)
     params->dsi.vertical_active_line = 1280;
     params->dbi.te_mode = 1;
     params->dsi.mode = 1;
-    params->dsi.esd_check_enable = 1;
+    params->dsi.esd_check_enable = 0;
     params->dsi.lcm_esd_check_table[0].count = 1;
     params->dbi.te_edge_polarity = 0;
     params->dsi.data_format.color_order = 0;
